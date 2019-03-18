@@ -173,7 +173,7 @@ b{position:absolute;
 	}
 #resimler{
 	width:810px;
-	height:416px;
+	height:500px;
 	border-width:3px;
 	border-style:solid;
 	border-color:#61fffb;
@@ -227,6 +227,14 @@ b{position:absolute;
 	position:absolute;
 	left:270px;
 	top:580px;
+	clear: both;
+}
+#footeres{
+	width:860px;
+	height:620px;
+	position:absolute;
+	left:270px;
+	top:980px;
 	clear: both;
 }
 #body{
