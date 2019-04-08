@@ -1,4 +1,4 @@
-@charset "U-8";
+@charset "UTF-8";
 
 #logo{
  position:absolute;
@@ -138,39 +138,9 @@
 	padding-left:0px;
 	padding-top:0px;
 }
-h5{
-	position:absolute;
-	left:45px;
-	
-}
-h1{
-	position:absolute;
-	left:10px;
-}
-h4{
-	position:absolute;
-	left:170px;
-}
-h6{
-	position:absolute;
-	left:406px;
-}
-p{
-	position:absolute;
-	left:568px;
-}
-h3{text-indent:10px;
-position:absolute;
-	left:555px;
-	top:115px;}
-h2{text-indent:10px;
-position:absolute;
-	left:545px;
-	top:325px;}
-b{position:absolute;
-	left:565px;
-	top:50px;
-	}
+
+
+
 #resimler{
 	width:810px;
 	height:630px;
@@ -184,6 +154,10 @@ b{position:absolute;
 	background-color:white;
 	padding-left:0px;
 	padding-top:0px;
+}
+h4{
+	position:absolute;
+	left:170px;
 }
 #slide{
 	width:600px;
@@ -203,12 +177,7 @@ b{position:absolute;
 	padding-left:0px;
 	padding-top:0px;
 }
-#iletisim strong {
-	position:absolute;
-	left:470px;
-	top:20px;
-	
-}
+
 #footer{
 	width:860px;
 	height:620px;
@@ -217,13 +186,11 @@ b{position:absolute;
 	top:438px;
 	clear: both;
 }
-#footermenu{
-	width:860px;
-	height:620px;
+#iletisim strong {
 	position:absolute;
-	left:270px;
-	top:1695px;
-	clear: both;
+	left:470px;
+	top:20px;
+	
 }
 #footeril{
 	width:860px;
@@ -241,6 +208,17 @@ b{position:absolute;
 	top:980px;
 	clear: both;
 }
+#footermenu{
+	width:860px;
+	height:620px;
+	position:absolute;
+	left:270px;
+	top:1695px;
+	clear: both;
+}
+
+
+
 #body{
 cursor: url (C:\Users\Araf\Desktop/imlec.png),auto;
 }
