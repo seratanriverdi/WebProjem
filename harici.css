@@ -178,12 +178,8 @@ h4{
 	top:45%;
 	clear: both;
 }
-#iletisim strong {
-	position:absolute;
-	left:470px;
-	top:20px;
-	
-}
+
+
 #footeril{
 	width:860px;
 	height:620px;
@@ -209,12 +205,8 @@ h4{
 	clear: both;
 }
 
-
-
-#body{
-cursor: url (C:\Users\Araf\Desktop/imlec.png),auto;
-}
- 
+ #genel {
+    cursor: url("imlec.png") , auto;}
 
 
 
