@@ -55,7 +55,7 @@
 }
 #ortaust {
 	width:260px;
-	height:207px;
+	height:300px;
 
 	position:absolute;
 	left:43%;
@@ -63,20 +63,36 @@
 }
 #ortaalt{
 	width:260px;
-	height:207px;
+	height:400px;
 	
 	position:absolute;
 	left:43%;
-	top:69%;
+	top:80%;
 }
-#sag {
-	width:255px;
-	height:431px;
 
+#sag {
+	width:260px;
+	height:410px;
 	position:absolute;
 	left:58%;
 	top:46%;
 	float: left;
+}
+#solalt {
+	width:255px;
+	height:350px;
+	position:absolute;
+	left:28%;
+	top:94%;
+	
+}
+#sagalt {
+	width:255px;
+	height:350px;
+	position:absolute;
+	left:58%;
+	top:91%;
+	
 }
 #icerik { 
     width:810px;
@@ -175,7 +191,7 @@ h4{
 	height:620px;
 	position:absolute;
 	left:28%;
-	top:45%;
+	top:90%;
 	clear: both;
 }
 
