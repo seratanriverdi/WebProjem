@@ -2,69 +2,87 @@
 
 <html>
   <head>
-  <link rel="Shortcut Icon" href="Sera/WebProjem/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="ico/favicon.png">
   <meta charset="UTF-8">
     <title> PUF&POFUDUK </title>
   <link href="harici.css" rel="stylesheet" type="text/css" >
   <style>
+  .cursor {
+	position:absolute;
+	width:100%;
+	height:100%;
+	cursor: url('ico/seker.png'), default;
+  
+	}
    
   .opa:hover{
     opacity: 0.5;
   filter: alpha(opacity=100);
+
   }
   .takip {
 	width:250px;
 	height:200px;
 	position:absolute;
 	left:27%;
-	top:187%;
+	top:195%;
 	transition: all .5s ease-in-out;
     cursor: pointer;
 }
     .takip:hover {
-        transform: scale(1.5);
-        -webkit-transform: scale(1.5);
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
     }
 .adres{
 	width:250px;
 	height:200px;
 	position:absolute;
 	left:38%;
-	top:187%;
+	top:195%;
 	transition: all .5s ease-in-out;
     cursor: pointer;
 }
 .adres:hover {
-        transform: scale(1.5);
-        -webkit-transform: scale(1.5);
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
     }
 .saat{
 	width:250px;
 	height:200px;
 	position:absolute;
 	left:51%;
-	top:187%;
+	top:195%;
 	transition: all .5s ease-in-out;
     cursor: pointer;
 }
 .saat:hover {
-        transform: scale(1.5);
-        -webkit-transform: scale(1.5);
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
     }
 .ilet{
 	width:250px;
 	height:200px;
 	position:absolute;
 	left:62%;
-	top:187%;
+	top:195%;
 	transition: all .5s ease-in-out;
     cursor: pointer;
 }
 .ilet:hover {
-        transform: scale(1.5);
-        -webkit-transform: scale(1.5);
+        transform: scale(1.3);
+        -webkit-transform: scale(1.3);
     }
+	
+	.uyildiz{
+	width:850px;
+	height:120%;
+	position:absolute;
+	left:26%;
+	top:155%;
+}
 
+
+	
   </style>
   <meta name="viewport" content="width=device-width" />
   
@@ -74,10 +92,10 @@
             }
         </script>     
   </head>
-  <body bgcolor="#fbd888" onload="hosGeldiniz()">
+  <body bgcolor="#fbd888" onload="hosGeldiniz()" id="cursor">
         
 
-    <div id="logo">
+    <div id="logo" >
 	<center> <img src="logo.png" width="550" height="400" > </center> </div>
 	<div id="menu" >
  <ul>
@@ -112,7 +130,10 @@
   <div id="sagalt2" class="opa">
     <img src="kur2.jpg" width="260" height="365" style="border: 5px solid white" >
   </div>
-  
+ 
+ <div  class="uyildiz" > 
+<img src="yildiz.png" width="870" height="1200"> </div>
+
 <div  class="takip" > 
 <img src="takip.png" width="250" height="200"> </div>
 
@@ -126,6 +147,7 @@
 
 <div class="ilet" > 
 <img src="iletisim.png" width="250" height="200"> </div>
+
 
 
   </body>
