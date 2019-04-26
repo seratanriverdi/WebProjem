@@ -2,11 +2,80 @@
 
 <html>
   <head>
+  <link rel="Shortcut Icon" href="Sera/WebProjem/favicon.png" type="image/x-icon">
   <meta charset="UTF-8">
-  <title> PUF&POFUDUK </title>
+    <title> PUF&POFUDUK </title>
   <link href="harici.css" rel="stylesheet" type="text/css" >
+  <style>
+   
+  .opa:hover{
+    opacity: 0.5;
+  filter: alpha(opacity=100);
+  }
+  .takip {
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:27%;
+	top:187%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+    .takip:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+.adres{
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:38%;
+	top:187%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.adres:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+.saat{
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:51%;
+	top:187%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.saat:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+.ilet{
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:62%;
+	top:187%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.ilet:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+
+  </style>
+  <meta name="viewport" content="width=device-width" />
+  
+        <script>
+            function hosGeldiniz() {
+                alert("Sayfamıza hoş geldiniz!");
+            }
+        </script>     
   </head>
-  <body bgcolor="#fbd888">
+  <body bgcolor="#fbd888" onload="hosGeldiniz()">
+        
 
     <div id="logo">
 	<center> <img src="logo.png" width="550" height="400" > </center> </div>
@@ -18,28 +87,47 @@
 		<li><a href="resimler.html">GALERİ</a></li>
 		<li><a href="iletisim.html">İLETİŞİM</a></li>
 	</ul>  </div>
-<div id="sol" > 
-     <img src="sol.jpg" width="260" height="431" style="border: 5px solid white"> </div>
+<div id="sol" class="opa" > 
+     <img src="sol.jpg" width="260" height="455" style="border: 5px solid white"> </div>
+  <div id="solalt" class="opa">
+    <img src="solalt.jpg" width="260" height="390" style="border: 5px solid white" >
+  </div>
+    <div id="solalt2" class="opa">
+    <img src="pas2.jpg" width="260" height="295" style="border: 5px solid white" >
+  </div>
+<div id="ortaust" class="opa">
+<img src="ortaust.jpg" width="260" height="300" style="border: 5px solid white" > </div>
+	</div>
+<div id="ortaalt" class="opa">
+<img src="ortaalt.jpg" width="260" height="370" style="border: 5px solid white"> </div>
+ <div id="ortaalt2" class="opa">
+    <img src="ortaalt2.jpg" width="260" height="470" style="border: 5px solid white" >
+  </div>
+  <div id="sag" class="opa">
+  <img src="sag.jpg" width="260" height="410" style="border: 5px solid white" >
+  </div>
+    <div id="sagalt" class="opa">
+    <img src="sagalt.jpg" width="260" height="370" style="border: 5px solid white" >
+  </div>
+  <div id="sagalt2" class="opa">
+    <img src="kur2.jpg" width="260" height="365" style="border: 5px solid white" >
+  </div>
+  
+<div  class="takip" > 
+<img src="takip.png" width="250" height="200"> </div>
 
-<div id="ortaust" >
-<img src="ortaust.jpg" width="260" height="300" style="border: 5px solid white"> </div>
-</a>	</div>
-<div id="ortaalt">
-<img src="ortaalt.jpg" width="260" height="400" style="border: 5px solid white"> </div>
-<div id="sag" > 
-  <img src="sag.jpg" width="255" height="410" style="border: 5px solid white" >
-  </div>
-  <div id="solalt">
-    <img src="solalt.jpg" width="260" height="350" style="border: 5px solid white" >
-  </div>
-    <div id="sagalt">
-    <img src="sagalt.jpg" width="260" height="350" style="border: 5px solid white" >
-  </div>
- 
-<div id="footer"> 
-<img src="footer.png" width="880" height="620"> </div>
+<div class="adres" > 
+<img src="adres.png" width="250" height="200"> </div>
 
-  </div>
+
+<div class="saat" > 
+<img src="saat.png" width="250" height="200"> </div>
+
+
+<div class="ilet" > 
+<img src="iletisim.png" width="250" height="200"> </div>
+
+
   </body>
   </html>
   

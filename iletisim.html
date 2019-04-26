@@ -5,21 +5,118 @@
   <meta charset="U-8">
   <title> PUF&POFUDUK </title>
   <link href="harici.css" rel="stylesheet" type="text/css" >
+  <meta name="viewport" content="width=device-width" />
+    <script>
+            function hosGeldiniz() {
+                alert("Sayfamıza hoş geldiniz!");
+            }
+        </script> 
   <style>
  
 	strong {
 	position:absolute;
-	left:470px;
-	top:20px;
+	left:62%;
+	top:10%;
 }
-p{
+.sallama:hover {
+ animation: 0.5s ease 0s normal none infinite swing;
+ -moz-animation: 0.5s ease 0s normal none infinite swing;
+ -webkit-animation: 0.5s ease 0s normal none infinite swing;
+   color: #61fffb;
+   text-shadow: 1px 1px 4px ;
+}
+@Keyframes swing {
+ 0% {
+ transform: rotate(10deg);
+ }
+ 50% {
+ transform: rotate(-5deg);
+ }
+ 100%{
+ transform: rotate(10deg);
+ }
+ }
+@-moz-keyframes swing {
+ 0% {
+ -moz-transform: rotate(10deg);
+ }
+ 50% {
+ -moz-transform: rotate(-5deg);
+ }
+ 100%{
+ -moz-transform: rotate(10deg);
+ }}
+@-webkit-keyframes swing {
+ 0% {
+ -webkit-transform: rotate(10deg);
+ }
+ 50% {
+ -webkit-transform: rotate(-5deg);
+ }
+ 100%{
+ -webkit-transform: rotate(10deg);
+ }}
+ .sallama {
+ transform-origin: center center;
+ -moz-transform-origin: center center;
+ -webkit-transform-origin: center center;
+}
+.takip {
+	width:250px;
+	height:200px;
 	position:absolute;
-	left:470px;
-	top:30%;
+	left:27%;
+	top:150%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
 }
+    .takip:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+.adres{
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:38%;
+	top:150%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.adres:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+.saat{
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:51%;
+	top:150%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.saat:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+.ilet{
+	width:250px;
+	height:200px;
+	position:absolute;
+	left:62%;
+	top:150%;
+	transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.ilet:hover {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+    }
+
 </style>
   </head>
-  <body bgcolor="#fbd888" >
+  <body bgcolor="#fbd888"onload="hosGeldiniz()" >
   	<div id="genel">
   <div id="logo">
 	<center> <img src="logo.png" width="550" height="400" > </center> </div>
@@ -33,42 +130,65 @@ p{
 		<li><a href="iletisim.html">İLETİŞİM</a></li>
 	</ul> </center> </div>
 	<div id="iletisim" width="720" height="660">
-	<img src="il.jpg" width="360" height="400" style="border: 3px solid #61fffb "> 
-	
+	<iframe src="https://giphy.com/embed/ucXbjTmJPwKUE" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/gifnewstest-food-desserts-ucXbjTmJPwKUE"></a></p>
+	<script>
+    function onayla() {
+        alert("Mesajınız başarı ile gönderildi. Sizinle en yakın zamanda iletişime geçeceğiz.");
+    }
+    function temizle() {
+        return confirm("Form temizlensin mi?");
+    }
+</script> 
 	<strong>  <form method="get" action="index1.html">
+	
+	  <h3 class="sallama" style="float: left;text-shadow: 1px 1px 4px #61fffb ;">  <font face="Verdana" align="center"> Bizimle İletişime Geçin! </font> </h3>
 <table border="0">
-	<h3 style="float: left;"> <font face="verdana"> Bizimle İletişime Geçin!  </font> </h3>
+	
 <tr>
-<td>Ad :</td>
+<td class="sallama" style="text-shadow: 1px 1px 4px #61fffb ;">Ad :</td>
 <td><input type="text" name="ad" id="ad" required placeholder="Adınız:"></td>
 </tr>
 <tr>
-<td>Soyad :</td>
+<td class="sallama" style="text-shadow: 1px 1px 4px #61fffb ;">Soyad :</td>
 <td><input type="text"name="soyad"id="soyad" required placeholder="Soyadınız:"></td>
 </tr>
 <tr>
-<td>Mesajınız :</td>
-<td><input type="text"name="mesaj"id="mesaj" required placeholder="Mesajınız:"></td>
-</tr>
-<tr>
-<td>E-mail :</td>
+<td class="sallama" style="text-shadow: 1px 1px 4px #61fffb ;">E-mail :</td>
 <td><input type="text"name="mail"id="mail" required placeholder="E-Mail:"></td>
 </tr>
 <tr>
-<td>Mesajınız :</td>
-<td><input type="text"name="mesaj"id="mesaj" required placeholder="Mesajınız:"></td>
+<td class="sallama" style="text-shadow: 1px 1px 4px #61fffb ;">Doğum Tarihi :</td>
+<td><input type="date"name="dg"id="dg" required placeholder="Doğum Tarihi:"></td>
 </tr>
 
+<tr>
+<td class="sallama" style="text-shadow: 1px 1px 4px #61fffb ;">Mesajınız :</td>
+<td><textarea  rows="2" cols="18"></textarea></td>
+</tr>
+
+
 	</table> 
-<p><input type="submit" name="gonder" id="gonder" value="GÖNDER">
-<input type="reset" name="sil" id="sil" value="TEMİZLE"></p>
+	<input type="submit" value="Onayla" onclick="onayla()"/>
+    <input type="reset" value="Temizle" onclick="return temizle()"/> </fieldset>
 </form> </strong> 
 
 <br>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48125.96194346782!2d28.987312482689006!3d41.07177690702472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab63f6f8193f1%3A0x36c864a929a1018c!2zQmXFn2lrdGHFny_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1552153281750" width="810" height="190" frameborder="0" style="border-top: 4px solid #61fffb"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48125.96194346782!2d28.987312482689006!3d41.07177690702472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab63f6f8193f1%3A0x36c864a929a1018c!2zQmXFn2lrdGHFny_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1552153281750" width="810" height="260" frameborder="0" style="border-top: 4px solid #61fffb"></iframe>
 	</div>
-	<div id="footeril"> 
-<img src="footer.png" width="860" height="620"> </div>
 </div>
+<div class="takip" > 
+<img src="takip.png" width="250" height="200"> </div>
+
+<div class="adres" > 
+<img src="adres.png" width="250" height="200"> </div>
+
+
+<div class="saat" > 
+<img src="saat.png" width="250" height="200"> </div>
+
+
+<div class="ilet" > 
+<img src="iletisim.png" width="250" height="200"> </div>
+
   </body>
   </html>
