@@ -2,8 +2,8 @@
 
 #logo{
  position:absolute;
-	left:35%;
-	top:1%;
+	left:33%;
+	top:0%;
 	transition: all 1s ease-in-out;
     cursor: pointer;
 }
@@ -18,7 +18,7 @@
 	text-align:center;
 	position:absolute;
 	left:25%;
-	top:38%;
+	top:40%;
     
 }
 #menu ul li {
@@ -55,7 +55,7 @@
 	height:455px;
 	position:absolute;
 	left:28%;
-	top:46%;
+	top:48%;
 	float: left;
 }
 #solalt {
@@ -63,15 +63,15 @@
 	height:390px;
 	position:absolute;
 	left:28%;
-	top:99%;
+	top:102%;
 	
 }
 #solalt2 {
 	width:260px;
-	height:295px;
+	height:299px;
 	position:absolute;
 	left:28%;
-	top:144%;
+	top:148%;
 }
 #solalt2:hover{
 	 opacity: 0.5;
@@ -82,28 +82,28 @@
 	height:300px;
 	position:absolute;
 	left:43%;
-	top:46%;
+	top:48%;
 }
 #ortaalt{
 	width:260px;
 	height:370px;
 	position:absolute;
 	left:43%;
-	top:81%;
+	top:84%;
 }
 #ortaalt2 {
 	width:260px;
 	height:470px;
 	position:absolute;
 	left:43%;
-	top:124%;
+	top:128%;
 }
 #sag {
 	width:260px;
 	height:410px;
 	position:absolute;
 	left:58%;
-	top:46%;
+	top:48%;
 	float: left;
 }
 #sagalt {
@@ -111,54 +111,36 @@
 	height:370px;
 	position:absolute;
 	left:58%;
-	top:93%;
+	top:97%;
 }
 #sagalt2 {
 	width:260px;
-	height:365px;
+	height:359px;
 	position:absolute;
 	left:58%;
-	top:136%;
+	top:141%;
 }
 
 #icerik { 
     width:810px;
-	height:416px;
+	height:750px;
 	border-width:3px;
 	border-style:solid;
 	border-color:#61fffb;
 	position:absolute;
 	left:28%;
-	top:46%;
-	float: left;
+	top:48%;
 	background-color:white;
-	padding-left:0px;
-	padding-top:0px;
 }
 
-#icerik hakresim {
+#hakresim {
 
-	display: block;
-	border-width:4px;
-	border-style:solid;
-	border-color:#61fffb;
 	position:absolute;
-	left:180px;
-	top:420px;
+	left:40px;
+	top:30px;
+	float:left;
 }
 
-#icerik hakresim2 {
-
-	display: block;
-	width:300px;
-	height:410px;
-	border-width:4px;
-	border-style:solid;
-	border-color:#61fffb;
-	position:absolute;
-	left:310px;
-	top:420px;
-}
 #menum {
 	width:810px;
 	height:1770px;
@@ -167,7 +149,7 @@
 	border-color:#61fffb;
 	position:absolute;
 	left:28%;
-	top:46%;
+	top:48%;
 	float: left;
 	background-color:white;
 	padding-left:0px;
@@ -178,13 +160,13 @@
 
 #resimler{
 	width:810px;
-	height:650px;
+	height:657px;
 	border-width:3px;
 	border-style:solid;
 	border-color:#61fffb;
 	position:absolute;
 	left:28%;
-	top:46%;
+	top:48%;
 	float: left;
 	background-color:white;
 	padding-left:0px;
@@ -206,12 +188,13 @@ h4{
 	border-color:#61fffb;
 	position:absolute;
 	left:28%;
-	top:46%;
+	top:48%;
 	float: left;
 	background-color:white;
 	padding-left:0px;
 	padding-top:0px;
 }
+
 
 
 
