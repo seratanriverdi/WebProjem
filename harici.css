@@ -54,7 +54,7 @@
 	width:260px;
 	height:455px;
 	position:absolute;
-	left:28%;
+	left:27%;
 	top:48%;
 	float: left;
 }
@@ -62,16 +62,16 @@
 	width:260px;
 	height:390px;
 	position:absolute;
-	left:28%;
-	top:102%;
+	left:27%;
+	top:96%;
 	
 }
 #solalt2 {
 	width:260px;
-	height:299px;
+	height:295px;
 	position:absolute;
-	left:28%;
-	top:148%;
+	left:27%;
+	top:137%;
 }
 #solalt2:hover{
 	 opacity: 0.5;
@@ -81,44 +81,44 @@
 	width:260px;
 	height:300px;
 	position:absolute;
-	left:43%;
+	left:41%;
 	top:48%;
 }
 #ortaalt{
 	width:260px;
 	height:370px;
 	position:absolute;
-	left:43%;
-	top:84%;
+	left:41%;
+	top:80%;
 }
 #ortaalt2 {
 	width:260px;
 	height:470px;
 	position:absolute;
-	left:43%;
-	top:128%;
+	left:41%;
+	top:119%;
 }
 #sag {
-	width:260px;
+	width:280px;
 	height:410px;
 	position:absolute;
-	left:58%;
+	left:55%;
 	top:48%;
 	float: left;
 }
 #sagalt {
-	width:260px;
+	width:280px;
 	height:370px;
 	position:absolute;
-	left:58%;
-	top:97%;
+	left:55%;
+	top:91%;
 }
 #sagalt2 {
-	width:260px;
-	height:359px;
+	width:280px;
+	height:363px;
 	position:absolute;
-	left:58%;
-	top:141%;
+	left:55%;
+	top:130%;
 }
 
 #icerik { 
@@ -143,7 +143,7 @@
 
 #menum {
 	width:810px;
-	height:1770px;
+	height:1835px;
 	border-width:3px;
 	border-style:solid;
 	border-color:#61fffb;
@@ -194,6 +194,13 @@ h4{
 	padding-left:0px;
 	padding-top:0px;
 }
+#pofuduk{
+	width:100%;
+	height:600px;
+position:absolute;
+left:0%;
+top:46%;
+	}
 
 
 
